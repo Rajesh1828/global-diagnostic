@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+:root{
+    --primary: #00a859;
+    --secondary:#ec7f1a;
+}
+
+.active {
+    color: var(--primary);
+    font-weight: 600;
+}
+body {
+    font-family: 'Jost', sans-serif;
+}
