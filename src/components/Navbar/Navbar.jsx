@@ -87,7 +87,7 @@ const Navbar = () => {
                 <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Bio Chemistry</li>
               </NavLink>
               <NavLink to='/pharmacy'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pharmacy</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pharmacy</li>
               </NavLink>
               <NavLink to='/totalconcepts'>
                 <li onClick={() => setIsOpen(false)} className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Total Concepts</li>
