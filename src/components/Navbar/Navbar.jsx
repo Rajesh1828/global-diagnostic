@@ -65,32 +65,32 @@ const Navbar = () => {
             <p onClick={() => setIsOpen(false)} className='cursor-pointer p-5 text-2xl text-orange-600 font-bold '>←BACK</p>
             <div className='flex flex-col items-center gap-5 mt-10'>
               <NavLink to='/'>
-                <li className='inline-block px-4 py-2  hover:bg-gray-200 rounded-lg'>Home</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2  hover:bg-gray-200 rounded-lg'>Home</li>
               </NavLink>
               <NavLink to='/about'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>About</li>
+                <li onClick={() => setIsOpen(false)} className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>About</li>
               </NavLink>
 
               <NavLink to='/diagnostics'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Diagnostics</li>
+                <li onClick={() => setIsOpen(false)} className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Diagnostics</li>
               </NavLink>
               <NavLink to='/healthpackages'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Health Packages</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Health Packages</li>
               </NavLink>
               <NavLink to='/pathology'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pathology</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pathology</li>
               </NavLink>
               <NavLink to='/microbiology'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Micro Biology</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Micro Biology</li>
               </NavLink>
               <NavLink to='/biochemistry'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Bio Chemistry</li>
+                <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Bio Chemistry</li>
               </NavLink>
               <NavLink to='/pharmacy'>
                 <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pharmacy</li>
               </NavLink>
               <NavLink to='/totalconcepts'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Total Concepts</li>
+                <li onClick={() => setIsOpen(false)} className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Total Concepts</li>
               </NavLink>
 
 
