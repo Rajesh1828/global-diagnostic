@@ -25,7 +25,7 @@ import pharmacy from './pharmacy_hero.jpg'
 import micro_biology from './micro_biology_hero.jpg'
 import pathology from './Pathalogy.jpg'
 import Bio_chemistry from './Bio_Chemistry.jpg'
-import contactHero from './contact_hero.jpg';
+// import contactHero from './contact_hero.jpg';
 import about from './About.jpg'
 import contact_2 from './contact_2.png'
 import Micro_Biology_1 from './Micro_Biology_1.jpg'
@@ -65,7 +65,7 @@ export const assets = {
     micro_biology,
     pathology,
     Bio_chemistry,
-    contact_hero,
+    // contact_hero,
     about,
     contact_2,
     Micro_Biology_1,
