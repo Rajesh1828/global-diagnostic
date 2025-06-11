@@ -21,6 +21,25 @@ import Automated_machine from './Automated_machine.png'
 import backt_machine from './backt_machine.png'
 import mispa_i3 from './mispa_i3.png'
 import ECG from './ECG.png'
+import pharmacy from './pharmacy_hero.jpg'
+import micro_biology from './micro_biology_hero.jpg'
+import pathology from './Pathalogy.jpg'
+import Bio_chemistry from './Bio_Chemistry.jpg'
+import contact_hero from './contact_hero.jpg'
+import about from './About.jpg'
+import contact_2 from './contact_2.png'
+import Micro_Biology_1 from './Micro_Biology_1.jpg'
+import Micro_Biology_2 from './Micro_Biology_2.jpg'
+import Pathalogy_1 from './Pathalogy_1.jpg'
+import Pathalogy_2 from './Pathalogy_2.jpg'
+import Pathalogy_3 from './Pathalogy_3.png'
+import Bio_chemistry_icon from './Bio-chemistry-icon.png'
+import Micro_Biology from './Microbiology-icon.png'
+import BPM from './BPM.png'
+import BGM from './BGM.png'
+import PTK from './PTK.png'
+import CTS from './CTS.png'
+
 
 
 
@@ -41,7 +60,28 @@ export const assets = {
     Automated_machine,
     Yumizen,
     mispa_i3,
-    ECG
+    ECG,
+    pharmacy,
+    micro_biology,
+    pathology,
+    Bio_chemistry,
+    contact_hero,
+    about,
+    contact_2,
+    Micro_Biology_1,
+    Micro_Biology_2,
+    Pathalogy_1,
+    Pathalogy_2,
+    Pathalogy_3,
+    Bio_chemistry_icon,
+    Micro_Biology,
+    BPM,
+    BGM,
+    PTK,
+    CTS
+    
+
+
    
 }
 

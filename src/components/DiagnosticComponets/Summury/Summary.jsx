@@ -1,5 +1,7 @@
 import React from 'react'
 import { Microscope } from 'lucide-react';
+import { motion } from 'framer-motion';
+
 
 const Summary = () => {
     const points = [
@@ -26,7 +28,11 @@ const Summary = () => {
     ];
 
     return (
-        <div className="py-12 px-6  bg-gradient-to-br from-white to-gray-100 text-gray-800">
+        <div
+     
+        // viewport={{ once: true }}
+        // exit={{ opacity: 0, y: -100 }}
+        className="py-12 px-6  bg-gradient-to-br from-white to-gray-100 text-gray-800">
             <div className="max-w-7xl mx-auto text-center mb-10">
                 <h2 className="text-3xl md:text-5xl font-bold text-green-600">Why Diagnostic Testing Matters</h2>
                 <p className="text-md text-gray-600 mt-2">
@@ -34,7 +40,12 @@ const Summary = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <motion.div
+                  initial={{ opacity: 0, y: 200 }}
+     whileInView={{ opacity: 1, y: 0 }}
+     
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.4, }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 {points.map((point, index) => (
                     <div
                         key={index}
@@ -49,7 +60,7 @@ const Summary = () => {
                         <p className="text-sm text-gray-700">{point.description}</p>
                     </div>
                 ))}
-            </div>
+            </motion.div>
         </div>
     )
 }

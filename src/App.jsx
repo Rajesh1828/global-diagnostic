@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
@@ -12,11 +14,15 @@ import BioChemistry from './pages/BioChemistry'
 import Pharmacy from './pages/Pharmacy'
 import TotalConcepts from './pages/TotalConcepts'
 import Footer from './components/Footer/Footer'
+import PrizingCards from './HealthPackagesComponents/PrizingCards/PrizingCards'
 
 
 const App = () => {
   return (
-    <div>
+    <div
+
+  
+    >
               <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -31,6 +37,7 @@ const App = () => {
         <Route path='/totalconcepts' element={<TotalConcepts/>}/>
         <Route path='*' element={<h1>404 Not Found</h1>} />
       </Routes>
+
       <Footer/>
     </div>
   )
