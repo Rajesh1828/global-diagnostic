@@ -25,7 +25,7 @@ import pharmacy from './pharmacy_hero.jpg'
 import micro_biology from './micro_biology_hero.jpg'
 import pathology from './Pathalogy.jpg'
 import Bio_chemistry from './Bio_Chemistry.jpg'
-import contactHero from './Contact_hero.jpg';
+import contact_hero from './Contact_hero.jpg';
 import about from './About.jpg'
 import contact_2 from './contact_2.png'
 import Micro_Biology_1 from './Micro_Biology_1.jpg'
