@@ -11,7 +11,11 @@ const Navbar = () => {
   return (
     <div className='w-full z-50 fixed top-0 left-0 right-0 '>
       <div className='bg-white text-black py-5 sm:px-12 sm:py-4 px-9 shadow-sm  flex justify-between items-center jost'>
+        <Link to='/'>
         <img src={assets.logo} className='w-32' alt="image" />
+        
+        </Link>
+         
         <ul className='hidden md:flex items-center gap-4 text-[17px] font-base'>
           <NavLink to='/'>
             <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Home</li>
@@ -81,7 +85,7 @@ const Navbar = () => {
                 <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Pathology</li>
               </NavLink>
               <NavLink to='/microbiology'>
-                <li className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Micro Biology</li>
+                <li onClick={()=> setIsOpen(false)} className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Micro Biology</li>
               </NavLink>
               <NavLink to='/biochemistry'>
                 <li onClick={() => setIsOpen(false)}  className='inline-block px-4 py-2 hover:bg-gray-200 rounded-lg'>Bio Chemistry</li>
@@ -97,7 +101,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row items-center px-12 gap-6 mt-10'>
               <Link to='/contact'>
-                <button className='md:hidden sm:hidden bg-[#ec7f1a] text-white px-5 py-3 rounded-lg flex items-center gap-2 font-bold'> CONTACT <Phone size={20} /> </button>
+                <button onClick={()=> setIsOpen(false)} className='md:hidden sm:hidden bg-[#ec7f1a] text-white px-5 py-3 rounded-lg flex items-center gap-2 font-bold'> CONTACT <Phone size={20} /> </button>
               </Link>
               <img src={assets.logo} className='w-20' alt="" />
             </div>

@@ -13,7 +13,7 @@ const Daignostic = () => {
             
             <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center md:justify-end  text-green-600 p-4'>
                 <div className='flex flex-col w-full items-center md:w-1/2 gap-[65px]' >
-                    <div className='flex  items-center gap-2'>
+                    <div className='flex  items-center gap-2 pt-13'>
                         <hr className='w-8 md:w-13 border-2 border-orange-500' />
                         <h2 className='text-center text-2xl md:text-6xl font-bold uppercase text-orange-500 '>Scientific</h2>
                     </div>

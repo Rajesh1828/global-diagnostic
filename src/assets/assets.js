@@ -39,6 +39,13 @@ import BPM from './BPM.png'
 import BGM from './BGM.png'
 import PTK from './PTK.png'
 import CTS from './CTS.png'
+import g_ab from './g_ab.png'
+import abg from './abg.png'
+import result from './result.png'
+import mission from './mission.jpg'
+import vission from './vission.png'
+import rs from './rs.png' 
+
 
 
 
@@ -78,8 +85,14 @@ export const assets = {
     BPM,
     BGM,
     PTK,
-    CTS
-    
+    CTS,
+    g_ab,
+    abg,
+    result,
+    mission,
+    vission,
+    rs
+
 
 
    
